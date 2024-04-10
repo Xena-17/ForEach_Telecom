@@ -1,16 +1,17 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: Danube;
+    src: url(./assets/fonts/Danube.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    @font-face {
-        font-family: Montserrat;
-        src: url(./assets/fonts/Montserrat.ttf);
-    }
-    font-family: Montserrat;
-    @font-face {
-        font-family: Danube;
-        src: url(./assets/fonts/Danube.ttf);
-    }
+    box-sizing: border-box;  
+    font-family: Montserrat; 
 }
 
 /* header */
@@ -19,10 +20,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blue;
     max-width: 1600px;
     height: 60px;
     color: white;
+    margin-top: 10px;
 }
 
 h1 {
@@ -32,33 +33,59 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    color: black;
    
 }
 
-ul {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: aqua;
     margin-right: 10px;
+
     }
 
-li {
+.icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background-color : green;
-    padding: 20px;
+    background-color : #4876EA;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.icons:hover {
+    background-color : #405eab;
 }
 
 img {
     padding-right: 10px;
 }
 
+/*navigation bar  */
 
+#navigation_bar {
+    background-color: rgba(128, 128, 128, 0.138);
+    display: flex;
+}
 
+li {
+    padding: 10px;
+    list-style: none;
+}
 
+li:hover {
+    background-color: rgba(128, 128, 128, 0.398);
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ 
 /*  */
 
