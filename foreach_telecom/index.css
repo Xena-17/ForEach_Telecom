@@ -117,7 +117,6 @@ h2 {
 .box_container {
     display: flex;
     flex-direction: row;
-
     display: flex;
     justify-content: center;
 
@@ -132,6 +131,8 @@ h2 {
     height: 330px;
     width: 25%;
     margin: 0 10px;
+    box-shadow: 3px 3px 0 rgba(128, 128, 128, 0.208);
+    border-radius: 3px;
 }
 .img_phone {
     display: flex;
@@ -144,7 +145,42 @@ h2 {
     height: auto;
  }
  .phone_brand {
-    
+    padding: 10px;
+    font-size: smaller;
+    font-weight: bold;
  }
 
-/*  */
+ .phone_type {
+    color: #4876EA;
+    font-weight: bold;
+ }
+
+ .phone_price ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ }
+ .bold {
+    font-size:x-large;
+    font-weight: bold;
+ }
+
+ .rod {
+    text-decoration: line-through;
+    color: grey;
+ }
+
+ .phone_four_times_paiement{
+    font-size: smaller;
+    font-weight: bold;
+    padding-bottom: 20px;
+ }
+
+ .phone_four_times_paiement p {
+    background-color: #EAEAEA;
+    padding: 5px;
+    border-radius: 10px;
+ }
+
+/*  *
