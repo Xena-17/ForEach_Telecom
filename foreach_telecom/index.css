@@ -94,14 +94,25 @@ a {
     background-image: url(./assets/images/jumbotron_image.jpg);
     background-origin: border-box;
     background-position: center;
-    height: 300px;
-    width: 1400px;
+    height: 400px;
+    width: 1600px;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
  }
+
+/* mobile_phone */
+
+#mobile {
+   height: 400px;
+   background-color: #EAEAEA; 
+}
+
+h2 {
+    color: #4876EA;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 
 
 /*  */
-
